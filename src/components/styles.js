@@ -13,7 +13,7 @@ export default makeStyles((theme) => ({
     padding: '2em',
     width: '100%',
     [theme.breakpoints.up('sm')]: {
-      paddingLeft: '250px',
+      paddingLeft: '240px',
     },
   },
 }));
