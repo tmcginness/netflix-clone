@@ -9,11 +9,10 @@ export default makeStyles((theme) => ({
     justifyContent: 'space-between',
     marginLeft: '240px',
     [theme.breakpoints.down('sm')]: {
-      marginLeft: '0px',
+      marginLeft: '0',
       flexWrap: 'wrap',
     },
   },
-
   menuButton: {
     marginRight: theme.spacing(2),
     [theme.breakpoints.up('sm')]: {
@@ -32,7 +31,7 @@ export default makeStyles((theme) => ({
   linkButton: {
     '&:hover': {
       color: 'white !important',
-      textdecoration: 'none',
+      textDecoration: 'none',
     },
   },
 }));
